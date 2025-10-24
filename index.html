@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lemon&display=swap" rel="stylesheet">
+</head>
+<body class="grid-debug"> 
+
+  <header>
+    <div class="grid-container">
+      <div class="logo">MY PORTFOLIO</div>
+
+    
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      
+      <div class="nav-background" id="navMenu">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+ 
+  <section class="content">
+    <div class="intro">
+      <h2>Hello, It’s Me</h2>
+      <h1>Rejoy E. Repel</h1>
+      <p>Information Technology Student</p>
+    </div>
+
+    <div class="profile-photo">
+      <img src="profile.jpg" alt="Profile Photo">
+    </div>
+  </section>
+
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
