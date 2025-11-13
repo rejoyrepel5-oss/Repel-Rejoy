@@ -1,12 +1,12 @@
-*{
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
 
 body {
   font-family: Arial, sans-serif;
-  background: url("background.jpg") no-repeat center center fixed;
+background:linear-gradient(pink,red,black);
   background-size: cover;
   color: white;
   min-height: 100vh;
@@ -286,5 +286,4 @@ nav ul li a:hover {
   );
   z-index: 0;
   pointer-events: none;
-}
 }
